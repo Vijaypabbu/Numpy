@@ -26,6 +26,7 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
 
 3. NumPy Arrays:
   3.1 Creating NumPy Arrays:
+
     NumPy arrays are the fundamental data structure in NumPy. They can be created in several ways:
     1. Using the numpy.array() function:
         This function takes a sequence-like object (e.g., list, tuple) and creates a NumPy array from it.
@@ -47,7 +48,7 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
   3.5 Broadcasting:
         Broadcasting is a powerful feature of NumPy that allows arithmetic operations between arrays of different shapes. It eliminates the need for explicit looping and simplifies the code.
        
-4. Array Manipulation:
+5. Array Manipulation:
   4.1 Reshaping Arrays:   
         NumPy provides several methods to reshape arrays, including reshape(), flatten(), and ravel(). Reshaping allows you to change the dimensions of an array without changing the underlying data.
   4.2 Joining and Splitting Arrays:
@@ -57,7 +58,7 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
   4.4 Sorting and Searching Arrays:
         NumPy offers functions for sorting arrays, such as sort() and argsort(). You can also search for elements using functions like where() and searchsorted().
    
-5. Mathematical Functions:
+6. Mathematical Functions:
   5.1 Basic Mathematical Operations:
         NumPy provides a wide range of mathematical functions for performing basic operations on arrays. These functions include add(), subtract(), multiply(), divide(),and more.
   5.2 Trigonometric Functions:
@@ -69,7 +70,7 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
   5.5 Linear Algebra Operations:
         NumPy provides linear algebra functions for matrix operations, such as dot(), transpose(), inverse(), and eig().
 
-6. Array Input and Output:
+7. Array Input and Output:
   6.1 Saving and Loading Arrays:
        NumPy provides functions to save and load arrays from disk. You can use np.save() to save an array to a binary file and np.load() to load the array back into memory.
   6.2 Text File Input and Output:
@@ -79,7 +80,7 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
   6.4 Compressed File Input and Output:
         NumPy allows you to save and load compressed arrays using np.savez() and np.load() with the .npz file extension. This is useful for saving memory and reducing storage space.
 
-7. Advanced NumPy Features:   
+8. Advanced NumPy Features:   
   7.1 Broadcasting in Depth:
         Broadcasting is a powerful feature of NumPy that allows arrays of different shapes to be combined in arithmetic operations. NumPy automatically applies broadcasting rules to make the arrays compatible for the operation.
   7.2 Array Manipulation Tricks:
@@ -91,7 +92,7 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
   7.5 Universal Functions:
        NumPy provides universal functions (ufuncs) that operate element-wise on arrays, such as add(), subtract(), multiply(), and divide(). These functions are optimized for performance.
 
-8. Performance Tips and Best Practices:
+9. Performance Tips and Best Practices:
   8.1 Vectorization:
         NumPy's strength lies in vectorized operations, where functions are applied to entire arrays instead of looping over individual elements. This results in faster execution and cleaner code.
   8.2 Memory Efficiency:
@@ -99,7 +100,7 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
   8.3 Use NumPy Functions Instead of Loops:
         NumPy provides a wide range of functions for common operations, such as sum, mean, min, max, and more. Using these functions instead of explicit loops can significantly improve performance.
 
-9. Conclusion:
+10. Conclusion:
     NumPy is a powerful library for data science, providing efficient and flexible data structures and functions for numerical computing. In this practical guide, we covered the basics of NumPy, including array creation, indexing and slicing, array 
     operations, array manipulation, mathematical functions, input and output, advanced features, performance tips, and best practices. With this knowledge, you can leverage NumPy to perform various data science tasks efficiently and effectively.
      
