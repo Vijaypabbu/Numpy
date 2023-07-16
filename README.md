@@ -6,10 +6,14 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
   and is widely used in data science, machine learning, and scientific research.
  1.2 WHY USE NUMPY IN DATA SCIENCE?
    NumPy offers several advantages for data science tasks:
-     # Efficient array operations: NumPy provides fast and efficient implementations of mathematical operations on arrays, making it suitable for large-scale data processing.
-     Multi-dimensional arrays: NumPy arrays allow for efficient storage and manipulation of multi-dimensional data, such as matrices or tensors.
-     # Broadcasting: NumPy supports broadcasting, which enables operations between arrays of different shapes, making code concise and readable.
-     # Integration with other libraries: NumPy seamlessly integrates with other data science libraries such as Pandas, Matplotlib, and sci-kit-learn, providing a comprehensive ecosystem for data analysis and machine learning.
+     # Efficient array operations:
+       NumPy provides fast and efficient implementations of mathematical operations on arrays, making it suitable for large-scale data processing.
+     # Multi-dimensional arrays:
+       NumPy arrays allow for efficient storage and manipulation of multi-dimensional data, such as matrices or tensors.
+     # Broadcasting:
+       NumPy supports broadcasting, which enables operations between arrays of different shapes, making code concise and readable.
+     # Integration with other libraries:
+       NumPy seamlessly integrates with other data science libraries such as Pandas, Matplotlib, and sci-kit-learn, providing a comprehensive ecosystem for data analysis and machine learning.
      
 2. Installing and Importing NumPy:
  2.1 Installation Instructions:
