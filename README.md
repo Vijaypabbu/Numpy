@@ -1,9 +1,15 @@
 # NumPy 
 NumPy(Numerical Python) is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.
+
 1. Introduction to NumPy
+
  1.1 WHAT IS NUMPY?
-  NumPy (Numerical Python) is an open-source Python library that provides powerful tools for performing numerical computations and working with multi-dimensional arrays. It serves as the foundation for many other scientific computing libraries in Python and is widely used in data science, machine learning, and scientific research.
+ 
+  NumPy (Numerical Python) is an open-source Python library that provides powerful tools for performing numerical computations and working with multi-dimensional arrays. It serves as the foundation for many other scientific computing libraries in 
+  Python and is widely used in data science, machine learning, and scientific research.
+ 
  1.2 WHY USE NUMPY IN DATA SCIENCE?
+ 
    NumPy offers several advantages for data science tasks:
      # Efficient array operations:
        NumPy provides fast and efficient implementations of mathematical operations on arrays, making it suitable for large-scale data processing.
