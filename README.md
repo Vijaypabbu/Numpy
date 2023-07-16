@@ -25,6 +25,7 @@ NumPy(Numerical Python) is a library consisting of multidimensional array object
    The "np" alias is commonly used for NumPy to shorten the code.
 
 3. NumPy Arrays:
+   
   3.1 Creating NumPy Arrays:
 
     NumPy arrays are the fundamental data structure in NumPy. They can be created in several ways:
